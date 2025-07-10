@@ -101,3 +101,40 @@ main{
     font-size: 20px;
     margin: 0px;
 }
+/* review */
+.review h3{
+    color: #252432;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 116px;
+}
+.review-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.review-item{
+    background-color: #FFFFFF;
+    border: #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+}
+.reviewer-info{
+    display: flex;
+    gap: 12px;
+}
+
+.reviewer-info img{
+    border-radius: 50%;
+}
+
+.reviewer-details h4{
+    color: #303030;
+    margin: 0px;
+}
+.reviewer-details p{
+    color: #605f5f;
+    margin: 0px;
+}
