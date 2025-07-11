@@ -138,3 +138,20 @@ main{
     color: #605f5f;
     margin: 0px;
 }
+/* cta */
+.cta{
+    background-color: #FFFFFF;
+    padding: 70px 150px;
+    margin-top: 116px;
+}
+.cta img{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 48px;
+}
+.cta-content{
+    text-align: center;
+}
+
+
