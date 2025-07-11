@@ -24,7 +24,14 @@ body{
     border-radius: 10px;
     padding: 12px 36px;
 }
-
+.logo{
+    color: #4E47FF;
+}
+.btn:hover{
+    background-color: #ecd909;
+    color: #000000;
+    cursor: pointer;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -103,7 +110,7 @@ main{
 }
 /* review */
 .review h3{
-    color: #252432;
+    color: #1E1E1E;
     text-align: center;
     font-size: 42px;
     margin-top: 116px;
@@ -131,11 +138,11 @@ main{
 }
 
 .reviewer-details h4{
-    color: #303030;
+    color: #757575;
     margin: 0px;
 }
 .reviewer-details p{
-    color: #605f5f;
+    color: #B3B3B3;
     margin: 0px;
 }
 /* cta */
@@ -154,4 +161,67 @@ main{
     text-align: center;
 }
 
+/* contact */
+.contact-us{ 
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin-top: 116px;
+}
+.contact-column{
+    width: 50%;
+}
+.contact-column h1{
+    font-size: 97px;
+}
+.contact-column input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.contact-column textarea{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.contact-column label{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+}
 
+/* footer style */
+footer{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 104px 454px;
+    margin-top: 116px;
+}
+footer h1{
+    font-size: 100px;
+    margin: 0px;
+}
+footer p{
+    color: #8987A1;
+    
+    font-size: 18px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0;
+    margin: 20px 0;
+}
+footer ul li{
+    list-style: none;
+    color: #8987A1;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
