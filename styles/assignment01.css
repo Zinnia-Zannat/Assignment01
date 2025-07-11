@@ -25,6 +25,7 @@ body{
     padding: 12px 36px;
 }
 .logo{
+    font-weight: 800;
     color: #4E47FF;
 }
 .btn:hover{
@@ -67,12 +68,12 @@ main{
     margin-top: 116px;
 }
 .action-title{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 42px;
 }
 .action-description{
     font-size: 24px;
-    color: #252432;
+    color: rgba(37, 36, 50, 0.5);
 }
 .action-image img{
     border-radius: 10%;
@@ -103,7 +104,7 @@ main{
     margin: 0px;
 }
 .user p{
-    color: #252432;
+    color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
     font-size: 20px;
     margin: 0px;
@@ -128,6 +129,9 @@ main{
     border-radius: 14px;
     padding: 24px;
 }
+.review-item h2,p{
+    color: rgba(30, 30, 30, 1);
+}
 .reviewer-info{
     display: flex;
     gap: 12px;
@@ -138,12 +142,12 @@ main{
 }
 
 .reviewer-details h4{
-    color: #757575;
+    color: rgba(117, 117, 117, 1);
     margin: 0px;
 }
 .reviewer-details p{
-    color: #B3B3B3;
-    margin: 0px;
+    color: rgba(179, 179, 179, 1);
+    margin: 5px;
 }
 /* cta */
 .cta{
@@ -159,6 +163,13 @@ main{
 }
 .cta-content{
     text-align: center;
+}
+.cta-content h2{
+    font-size: 50px;
+    margin: 10px 0;
+}
+.cta-content p{
+    color:rgba(0, 0, 0, 0.5);
 }
 
 /* contact */
@@ -178,19 +189,32 @@ main{
     display: block;
     width: 100%;
     height: 50px;
+    border-color: #D6DDED;
     border-radius: 5px;
     margin: 20px 0;
+    color: rgba(0, 0, 0, 0.5);
 }
 .contact-column textarea{
     display: block;
     width: 100%;
     border-radius: 5px;
+    border-color: #D6DDED;
     margin: 20px 0;
 }
 .contact-column label{
     display: block;
     font-size: 18px;
     font-weight: 400;
+}
+.contact-column button{
+    width: 100%;
+    padding: 19px ;
+
+}
+.contact-column ::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 20px;
 }
 
 /* footer style */
@@ -206,7 +230,6 @@ footer h1{
 }
 footer p{
     color: #8987A1;
-    
     font-size: 18px;
 }
 footer ul{
@@ -222,6 +245,6 @@ footer ul li{
 }
 footer ul li a{
     text-decoration: none;
-    color: black;
+    color: #8987A1;
     font-size: 18px;
 }
